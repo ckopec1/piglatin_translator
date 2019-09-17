@@ -1,0 +1,23 @@
+<html>
+
+<h1>Pig Latin Translator</h1>
+
+<d>
+<h3>Original:</h3>
+{{ originalText }}
+<h3>Translation:</h3>
+{{ translationText }}
+</d>
+<br/>
+<br/>
+<a href="{% url 'home' %}">New Translation</a>
+<br/>
+<footer>
+    <footer>
+        <form action="{% url 'about' %}">
+            <br/>
+            <input type="submit" value="About!" />
+    </footer>
+</footer>
+
+</html>
